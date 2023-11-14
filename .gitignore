@@ -1,0 +1,7 @@
+.env
+node_modules
+.txt
+package-lock.json
+./testa-web/node_modules
+
+./testa-web/package-lock.json
