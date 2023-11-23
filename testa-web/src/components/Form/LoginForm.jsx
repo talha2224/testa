@@ -37,7 +37,7 @@ const LoginForm = () => {
       }, 3000);
     }
     else {
-      axios.post(`/api/v1/patient/login`,data)
+      axios.post(`http://localhost:5000/api/v1/patient/login`,data)
         .then((res) => {
           console.log(res)
           alert("SUCESS")

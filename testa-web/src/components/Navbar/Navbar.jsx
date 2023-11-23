@@ -93,12 +93,12 @@ const Navbar = () => {
                   <p>Medical History</p>
                 </div>
 
-                <div className='text-sm text-[#9BA6B0] hover:text-[#1971F5] flex items-center gap-2 hover:bg-[#E6F1FD] p-2 rounded-md cursor-pointer'>
+                <div onClick={()=>nav("/payment")} className='text-sm text-[#9BA6B0] hover:text-[#1971F5] flex items-center gap-2 hover:bg-[#E6F1FD] p-2 rounded-md cursor-pointer'>
                   <CiDollar className='text-lg' />
                   <p>Payments Method</p>
                 </div>
 
-                <div className='text-sm text-[#9BA6B0] hover:text-[#1971F5] flex items-center gap-2 hover:bg-[#E6F1FD] p-2 rounded-md cursor-pointer'>
+                <div onClick={()=>nav("/profile")} className='text-sm text-[#9BA6B0] hover:text-[#1971F5] flex items-center gap-2 hover:bg-[#E6F1FD] p-2 rounded-md cursor-pointer'>
                   <IoMdSettings className='text-lg' />
                   <p>Settings</p>
                 </div>

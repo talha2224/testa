@@ -3,11 +3,8 @@ import { labData } from '../../Data/laboratory'
 import { AiFillEye } from 'react-icons/ai'
 import { MdOutlineKeyboardArrowRight, MdOutlineKeyboardArrowLeft } from 'react-icons/md'
 import Popup from '../../components/popup/RadiologyPopup'
-// import { useNavigate } from 'react-router-dom'
-// import Button from '../../components/Button/Button'
 
 const Radiology = () => {
-  // const nav = useNavigate()
   const [data] = useState(labData)
   const [showDetails, setshowDetails] = useState(false)
   const [currentPage, setcurrentPage] = useState(1)

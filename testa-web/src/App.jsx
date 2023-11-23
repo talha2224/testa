@@ -10,6 +10,11 @@ import AdminApproval from './pages/Otp/AdminApproval'
 import SucessBooking from './pages/Patient/LabPage/SucessBooking'
 import Radiology from './pages/Patient/RadiologyPage/RadiologyPage'
 import PrescriptionPage from './pages/Patient/PrescriptionPage/PrescriptionPage'
+import ReminderPage from './pages/Patient/ReminderPage/ReminderPage'
+import ProfilePage from './pages/Patient/ProfilePage/ProfilePage'
+import PaymentPage from './pages/Patient/PaymentPage/PaymentPage'
+
+
 function App() {
 
   return (
@@ -25,7 +30,9 @@ function App() {
       <Route path='/lab/booking/sucess' element={<SucessBooking/>}/>
       <Route path='/radiology' element={<Radiology/>}/>
       <Route path='/prescription' element={<PrescriptionPage/>}/>
-
+      <Route path='/reminder' element={<ReminderPage/>}/>
+      <Route path='/profile' element={<ProfilePage/>}/>
+      <Route path='/payment' element={<PaymentPage/>}/>
     </Routes>
     </>
   )
